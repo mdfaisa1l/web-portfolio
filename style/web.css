@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-primary{
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding:18px 35px ;
+    height: 64px;
+    border-radius: 5px;
+    background: #fd6e0a;
+}
+
+.header{
+    background: #FFf8f3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+
+/* header and navigation style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+ margin-left: 50px;
+}
+.text-primary{
+    color: chocolate;
+}
+
+/* banner style */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 150px;
+}
+.banner-title{
+     font-weight: 600;
+     font-size: 50px;
+
+}
+.banner-sub-title{
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    color: rgb(193, 190, 196);
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about section style */
+.about{
+    text-align: center;
+    margin-top: 130px;
+    background: #FFf8f3;
+    border-radius: 10px;
+    padding:130px 150px;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.section-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.about-infu-container{
+    display:flex;
+    justify-content: space-around;
+
+}
+.about .about-title{
+    font-weight: 400;
+    font-size: 15px;
+    color: #757575;
+}
+.about-description{
+    font-weight: 600;
+    font-size: 15px;
+    color: #474747;
+}
